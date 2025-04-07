@@ -1,0 +1,11 @@
++-----------------------------------------------------------------------
+| Running ${PKGSTEM} on OpenBSD
++-----------------------------------------------------------------------
+
+xandikos listens by default on localhost:8080 without authentication.
+
+It is highly recommended to have it sit behind a reverse proxy which
+performs authentication when exposing it to the internet. On OpenBSD,
+you can, for example, use relayd(8) as a reverse proxy performing
+authentication using TLS client certificates. For more information,
+refer to the documentation in relayd.conf(5).

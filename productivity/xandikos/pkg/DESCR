@@ -1,0 +1,4 @@
+Xandikos is a lightweight yet complete CardDAV/CalDAV server that backs onto a
+Git repository. It implements a large variety of related RFCs but it does not
+support a multi-user setup and CalDAV scheduling extensions. Nonetheless, it
+is compatible with a variety of different CalDAV clients.
