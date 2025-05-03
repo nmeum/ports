@@ -3,6 +3,8 @@
 +-----------------------------------------------------------------------
 
 xandikos listens by default on localhost:8080 without authentication.
+The default port can be changed by passing the --port option to the
+daemon via daemon_flags, see rcctl(8) for more information.
 
 It is highly recommended to have it sit behind a reverse proxy which
 performs authentication when exposing it to the internet. On OpenBSD,

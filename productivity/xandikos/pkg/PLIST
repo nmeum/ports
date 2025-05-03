@@ -4,12 +4,13 @@
 bin/xandikos
 lib/python${MODPY_VERSION}/site-packages/xandikos/
 lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/
-lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/AUTHORS
-lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/COPYING
 lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/METADATA
 lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/RECORD
 lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/WHEEL
 lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/entry_points.txt
+lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/licenses/
+lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/licenses/AUTHORS
+lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/licenses/COPYING
 lib/python${MODPY_VERSION}/site-packages/xandikos-${MODPY_DISTV}.dist-info/top_level.txt
 lib/python${MODPY_VERSION}/site-packages/xandikos/__init__.py
 lib/python${MODPY_VERSION}/site-packages/xandikos/__main__.py
@@ -135,9 +136,8 @@ lib/python${MODPY_VERSION}/site-packages/xandikos/xmpp.py
 share/doc/pkg-readmes/${PKGSTEM}
 share/doc/xandikos/
 share/doc/xandikos/COPYING
-share/doc/xandikos/NEWS
+share/doc/xandikos/GOALS.rst
 share/doc/xandikos/README.rst
-share/doc/xandikos/SUPPORT.md
 @mode 700
 @owner _xandikos
 @group _xandikos
